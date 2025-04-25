@@ -1,0 +1,98 @@
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    #nav-inner {
+        width: 90%;
+    }
+
+    #nav-inner h4 {
+        font-size: 22px;
+        margin-left: 10px;
+    }
+
+    #nav-center h5 {
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    #hero h1 {
+        font-size: 160px;
+        letter-spacing: 15px;
+    }
+
+    #hero-picture img {
+        height: 350px;
+        width: 350px;
+    }
+
+    #left button {
+        margin-left: 0;
+    }
+
+    #right h4 {
+        font-size: 16px;
+    }
+}
+
+/* Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+    #nav-inner {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        width: 95%;
+    }
+
+    #nav-center {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #hero h1 {
+        font-size: 80px;
+        letter-spacing: 5px;
+        text-align: center;
+        transform: translateY(0);
+    }
+
+    #hero-picture img {
+        height: 250px;
+        width: 250px;
+        margin-top: 0;
+    }
+
+    #low {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #left, #right {
+        width: 100%;
+        align-items: center;
+        margin: 0;
+    }
+
+    #left h4, #right h4 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #left button {
+        margin: 0 auto;
+        display: block;
+    }
+
+    #right {
+        margin-top: 30px;
+    }
+
+    #sub-hero h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #nav-button button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
